@@ -1,14 +1,13 @@
-#include "stdio.h"
+#include "main.h"
 
 
 
 /**
+ * print_alphabet - This function prints the alphabet in lowercase
  *
- *  * print_alphabet - This function prints the alphabet in lowercase
+ * followed by a new line
  *
- *   * followed by a new line
- *
- *    */
+ */
 
 void print_alphabet(void)
 
@@ -29,7 +28,6 @@ void print_alphabet(void)
 
 
 				_putchar('\n');
-
 
 
 }
