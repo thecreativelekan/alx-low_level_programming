@@ -1,9 +1,7 @@
 #include "main.h"
 
-
-
 /**
- * main - This program prints the phrase putchar
+ * main - Entry point print phrase putchar
  *
  * Return: Always 0 (Success)
  */
@@ -12,24 +10,24 @@ int main(void)
 
 {
 
-		char ch[] = "_putchar";
-
-			int i;
+		char *sh = "_putchar";
 
 
 
-				for (i = 0; ch[i] != '\0'; i++)
+			while (*sh)
 
-						{
+					{
 
-									_putchar(ch[i]);
+								_putchar(*sh);
 
-										}
+										sh++;
+
+											}
+
+				_putchar('\n');
 
 
 
-					_putchar('\n');
-
-						return (0);
+					return (0);
 
 }
