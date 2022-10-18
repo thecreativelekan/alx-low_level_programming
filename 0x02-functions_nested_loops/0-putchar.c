@@ -3,7 +3,6 @@
 
 
 /**
- *
  * main - This program prints the phrase putchar
  *
  * Return: Always 0 (Success)
@@ -13,7 +12,7 @@ int main(void)
 
 {
 
-		char ch[] = "putchar";
+		char ch[] = "_putchar";
 
 			int i;
 
